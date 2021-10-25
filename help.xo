@@ -1,4 +1,3 @@
-
 # coding=utf-8
 #!/usr/bin/python
 # coding=utf-8
@@ -84,7 +83,7 @@ def tech_abm():
     print('')
     print("\033[1;97m--------------------------------------------------")
     username = raw_input("\033[1;97m[+]\033[1;97m Username :\033[1;97m ")
-    if username =="Marwat":
+    if username =="efk":
         os.system("clear")
         print logo
         print ("[+] Username : efk(Correct)")
